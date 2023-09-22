@@ -1,19 +1,47 @@
 *,
 ::before,
 ::after {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
-:root{
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
-body, h1,h2,h3,h4,h5,h6,p{
-margin: 0;
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
-ul{
-list-style: none;
-padding-left: 0;
-margin: 0;
+a {
+  color: inherit;
 }
-a{
-text-decoration: none;
-color: inherit;
+div {
+}
+section {
+  display: flex;
+  font-family: ;
+}
+.classPic {
+  width: 100vw;
+  max-height: 520px;
+  object-fit: cover;
+}
+.firstP {
+  background-color: bisque;
+}
+
+.secondP {
+  background-color: bisque;
+}
+
+.thirdP {
+  background-color: bisque;
 }
