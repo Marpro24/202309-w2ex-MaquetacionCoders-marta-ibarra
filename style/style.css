@@ -13,35 +13,73 @@ h5,
 h6,
 p {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
 }
+
 ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
+
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
 a {
   color: inherit;
 }
-div {
+
+header {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
 }
+
+.hero {
+  background-color: black;
+  color: white;
+  font-size: 32px;
+  font-weight: 300;
+  position: absolute;
+  top: 75px;
+  right: 40px;
+  width: 25%;
+}
+
 section {
   display: flex;
-  font-family: ;
 }
+
+.logo {
+  width: 10%;
+}
+
+nav {
+  margin-left: auto;
+}
+
 .classPic {
-  width: 100vw;
+  width: 100%;
   max-height: 520px;
   object-fit: cover;
 }
-.firstP {
-  background-color: bisque;
+
+.section-header {
+  font-weight: 500;
+  margin: 13px;
 }
 
-.secondP {
-  background-color: bisque;
+.mainHeader {
+  font-size: 35px;
+  font-weight: 500;
+  margin: 20px;
 }
 
-.thirdP {
-  background-color: bisque;
+article {
+  margin: 20px;
+  padding: 10px;
+  background-color: #dfdddd;
+  border-radius: 5px;
 }
